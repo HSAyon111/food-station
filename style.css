@@ -12,6 +12,16 @@ h3{
 span{
     color: #e4042c;
 }
+.flexible{
+    display: flex;
+    padding-left: 100px;
+}
+.width-control{
+    width: 50%;
+}
+.width-control img{
+    width: 75%;
+}
 .button{
     text-decoration: none;
     color: white;
