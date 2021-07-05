@@ -1,0 +1,22 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    color: gray;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+span{
+    color: #e4042c;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    background-image: linear-gradient(#fe0000, #ff7b7c);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
