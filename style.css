@@ -1,11 +1,15 @@
 body{
     font-family: 'Merriweather', serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
 }
+h2{
+    color: #525252;
+}
 h3{
-    color: gray;
+    color: #525252;
     font-weight: 400;
     margin-bottom: 40px;
 }
@@ -15,18 +19,32 @@ span{
 .flexible{
     display: flex;
     padding-left: 100px;
+    padding-right: 50px;
+    margin-bottom: 120px;
+    margin-top: 20px;
 }
 .width-control{
     width: 50%;
 }
+.width-control p{
+    text-align: justify;
+    margin-bottom: 80px;
+}
 .width-control img{
     width: 75%;
+    height: 100%;
 }
 .button{
     text-decoration: none;
     color: white;
     font-weight: 300;
     background-image: linear-gradient(#fe0000, #ff7b7c);
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 12px 24px;
+    border-radius: 24px;
+}
+.banner{
+    background-image: url(images/shapes/Frame-58.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
 }
