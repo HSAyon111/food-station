@@ -14,7 +14,7 @@ h2{
     font-weight: 400;
     margin-bottom: 40px;
 }
-span{
+#clr{
     color: #e4042c;
 }
 .flexible{
@@ -83,4 +83,13 @@ span{
 }
 #para3{
     padding-bottom: 17px;
+}
+.inline{
+    display: inline-block;
+    padding: 10px 100px 30px 110px;
+}
+#container{
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 15px;
+    margin: 0 100px 60px;
 }
