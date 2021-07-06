@@ -14,7 +14,7 @@ h2{
     font-weight: 400;
     margin-bottom: 40px;
 }
-#clr{
+.clr{
     color: #e4042c;
 }
 .flexible{
@@ -90,6 +90,18 @@ h2{
 }
 #container{
     box-shadow: 1px 1px 10px gray;
-    border-radius: 15px;
+    border-radius: 18px;
     margin: 0 100px 60px;
+}
+footer{
+    background-color: #060c0f;
+    text-align: center;
+    padding-bottom: 80px;
+}
+footer h2{
+    padding-top: 30px;
+}
+small{
+    color: #e4e2e3;
+    font-weight: lighter;
 }
